@@ -1,0 +1,17 @@
+{
+  "name": "tw_picxelstudio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "tailwind build ./source/styles.css -o ./static/css/styles.css --watch",
+    "build-django": "tailwind build ./source/styles.css -o ./static/css/styles.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "tailwindcss": "^3.3.2"
+  }
+}
